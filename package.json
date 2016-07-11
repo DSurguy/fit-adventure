@@ -1,0 +1,18 @@
+{
+  "name": "fit-adventure",
+  "version": "0.0.0",
+  "description": "An rpg utilizing fitbit steps and other data to grow your adventurer!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fitbit",
+    "fit",
+    "rpg",
+    "game"
+  ],
+  "author": "Surguy.Derek@gmail.com",
+  "license": "ISC",
+  "dependencies": {}
+}

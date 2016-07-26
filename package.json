@@ -1,5 +1,5 @@
 {
-  "name": "fit-adventure",
+  "name": "fit-adventure-server",
   "version": "0.0.0",
   "description": "An rpg utilizing fitbit steps and other data to grow your adventurer!",
   "main": "index.js",
@@ -14,5 +14,17 @@
   ],
   "author": "Surguy.Derek@gmail.com",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-session-sequelize": "^3.1.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "extend": "^3.0.0",
+    "passport": "^0.3.2",
+    "passport-oauth2": "^1.3.0",
+    "sequelize": "^3.23.6"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.4"
+  }
 }
